@@ -1,7 +1,7 @@
 --This will change between manual and automatic mode
 --true will force the player to make power pads to have entities be linked to the power grid
 --false will be the old way where the entities are linked to the power grid on their own
-manual_mode = true
+manual_mode = false
 
 --This will make the powered entities only have enough wire reach to hit another like entity right next to it
 --For example: an assembling machine will only have enough wire reach to hit an assembler right next to it (to each side)
@@ -13,8 +13,7 @@ minimum_wire_reach = false
 --DO NOT DELETE ANY LIST ENTIRELY
 --If you want to remove all of the entities from a category then just empty the list so that only the curly brackets remain "{}"
 
-entities1x1 = {	"small-lamp",
-				"small-pump"}
+entities1x1 = {"small-pump"}
 
 entities2x2 = {	"accumulator",
 				"laser-turret"}
